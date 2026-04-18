@@ -495,3 +495,10 @@ img {
   grid-template-columns: 1fr 1fr !important;
   align-items: center;
 }
+.resume-section {
+  text-align: center;
+}
+
+.resume-section .button {
+  margin-top: 10px;
+}
