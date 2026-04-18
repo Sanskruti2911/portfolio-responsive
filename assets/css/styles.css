@@ -489,10 +489,9 @@ img {
   }
 }
 /* ===== FIX FOR IMAGE RIGHT SIDE ===== */
-@media screen and (min-width: 768px) {
-  .home {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-  }
+/* ===== FINAL FIX (DON'T CHANGE ANYTHING ELSE) ===== */
+.home.bd-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  align-items: center;
 }
