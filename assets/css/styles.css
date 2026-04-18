@@ -488,3 +488,11 @@ img {
     width: 450px;
   }
 }
+/* ===== FIX FOR IMAGE RIGHT SIDE ===== */
+@media screen and (min-width: 768px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
