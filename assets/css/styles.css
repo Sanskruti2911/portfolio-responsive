@@ -208,14 +208,14 @@ img {
   color: var(--first-color);
 }
 .home__img {
-    width: 300px;
-    justify-self: center;
-}
-
-.home__img img {
-    width: 100%;
-    border-radius: 50%;
-    border: 5px solid #facc15;
+  position:absolute; 
+  right: 0%;
+  top:20%;
+  left: 70%;
+  display: flex;
+  justify-content: right;
+  /* bottom: ; */
+  width: 260px;
 }
 .home__blob {
   fill: var(--first-color);
@@ -488,17 +488,3 @@ img {
     width: 450px;
   }
 }
-/* ===== FIX FOR IMAGE RIGHT SIDE ===== */
-/* ===== FINAL FIX (DON'T CHANGE ANYTHING ELSE) ===== */
-.home.bd-grid {
-  display: grid !important;
-  grid-template-columns: 1fr 1fr !important;
-  align-items: center;
-}
-.resume-section {
-  text-align: center;
-}
-
-.resume-section .button {
-  margin-top: 10px;
-} ata yat certificate la jra effect lav ani prt jra resume la centre kr karan mage dilay tu code pn nhiye zaly download resume centre la te 
